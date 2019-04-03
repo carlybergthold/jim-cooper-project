@@ -6,30 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jim Cooper</title>
     <link rel="stylesheet" type="text/css" href="jim.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
 </head>
 <body>
-    <header>
 
+    <!-- Navigation links -->
+    <nav>
+        <a href="#">About Jim</a>
+        <a href="#">Jim's Hobbies</a>
+        <a href="#">Jim's Favorite Movies</a>
+    </nav>
+
+   <!-- Header with image-->
+    <header class="header">
+       <figure class="header__image">
+            <image src="https://cooper.house.gov/sites/cooper.house.gov/themes/cooper_redesign/logo.png" alt="Jim-Cooper">
+       </figure>
     </header>
+
+    <!-- Main article section about Jim -->
     <main>
         <article class="main-article">
             <section class="info">
-                <figure class="info__image">
-                    <image src="https://cooper.house.gov/sites/cooper.house.gov/themes/cooper_redesign/logo.png" alt="Jim-Cooper">
-                </figure>
                 <h1 class="info__name">Rep. Jim Cooper</h1>
                 <h3 class="info__district">Tennessee's 5th Congressional District</h3>
                 <h3 class="info__affiliation">Democratic Party</h3>
             </section>
-            <section class="committees">
+
+            <!-- Flexbox columns -->
+            <section class="columns-container">
+              <section class="column committees">
                 <h2>Committees</h2>
                 <ul>
                   <li><a href="https://armedservices.house.gov/" target="_blank">Committee on Armed Services</a> - The primary responsibility of the House Armed Services Committee is to ensure that our men and women in the military have the resources they need to defend our freedom.  The Committee oversees a $663.8 billion military budget.</li>
                   <li><a href="https://oversight.house.gov/" target="_blank">Committee on Oversight and Reform</a> - The Committee on Oversight and Reform is the main investigative committee in the U.S. House of Representatives. It has jurisdiction to investigate any federal program and any matter with federal policy implications.</li>
                   <li><a href="https://budget.house.gov/" target="_blank">Committee on the Budget</a> - The Committee on the Budget is responsible for legislative oversight of the federal budget process, reviewing all bills and resolutions on the budget, and monitoring agencies and programs funded outside of the budgetary process.</li>
                 </ul>
-            </section>
-            <section class="legislation">
+              </section>
+              <section class="column legislation">
                 <h2>Legislation</h2>
                 <ol>
                     <li>To provide for the conveyance by the Secretary of the Army of certain property located in Cheatham County, Tennessee.</li>
@@ -41,7 +55,8 @@
                     <li>John Tanner Fairness and Independence in Redistricting Act</li>
                     <li>Amending the Rules of the House of Representatives to require the House to replace the Speaker on the first day of the second session of a Congress if the most recent fiscal year ended with a significant Federal budget deficit, and for other purposes.</li>
                 </ol>
-            </section>
+              </section>
+        </section>
         </article>
     </main>
     <footer>

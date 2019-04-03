@@ -1,0 +1,53 @@
+.header__image {
+    background-color: maroon;
+}
+
+main {
+    margin: 0 2.5rem 2.5rem 2.5rem;
+}
+
+* {
+    font-family: 'Heebo', sans-serif;
+}
+
+li a {
+    color: maroon;
+}
+
+nav a {
+    color: navy;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    margin-left: 2.2rem;
+}
+
+h1, h2, h3, p, li {
+    color: navy;
+}
+
+.columns-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    text-align: center;
+}
+
+.column {
+    border: 3px solid maroon;
+    padding: 1rem;
+}
+
+.committees {
+    margin-right: 1rem;
+}
+
+.legislation {
+    margin-left: 1rem;
+}
