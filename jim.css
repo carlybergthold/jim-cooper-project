@@ -10,12 +10,17 @@ main {
     font-family: 'Heebo', sans-serif;
 }
 
+nav {
+    text-align: center;
+}
+
 li a {
     color: maroon;
 }
 
 nav a {
     color: navy;
+    margin: 0 5rem 0 5rem;
 }
 
 h1 {
